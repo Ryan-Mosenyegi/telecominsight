@@ -1,5 +1,4 @@
-"""code learning note
-Creating the very first administrator on a server.
+"""Creating the very first administrator on a server.
 
 On a hosted server you often cannot open a terminal to run create_admin.py. Instead, set two
 environment variables and this file creates the administrator the first time the app starts:
@@ -7,8 +6,7 @@ environment variables and this file creates the administrator the first time the
     BOOTSTRAP_ADMIN_USERNAME   BOOTSTRAP_ADMIN_PASSWORD
 
 It does nothing if an administrator already exists, so it is safe to leave switched on. After the
-first start, remove BOOTSTRAP_ADMIN_PASSWORD from the environment. (The names differ from the old
-ADMIN_PASSWORD on purpose: that variable used to mean something else.)
+first start, remove BOOTSTRAP_ADMIN_PASSWORD from the environment.
 """
 from __future__ import annotations
 
