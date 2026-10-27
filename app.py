@@ -12,7 +12,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from telecominsight import analysis, auth, bootstrap, config, db, login_ui, report, theme, upload_ui
+from telecominsight import (account_ui, analysis, auth, bootstrap, config, db, login_ui, report,
+                            theme, upload_ui)
 from telecominsight.theme import BORDER, CYAN, MUTED, PURPLE, ROYAL_BLUE, SCALE
 
 st.set_page_config(page_title="TelecomInsight BW | Network Intelligence", page_icon="📡",
