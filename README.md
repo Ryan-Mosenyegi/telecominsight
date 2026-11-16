@@ -112,7 +112,11 @@ To enable administrator access, configure an administrator password using either
 Example:
 
 ```toml
-ADMIN_PASSWORD = "your-password"
+ADMIN_USER = admin1
+ADMIN_PASSWORD = telecominsight
+
+USER_NAME = btc_user
+USER_PASSWORD = telecominsight
 ```
 
 **Option 2: Environment Variable**
